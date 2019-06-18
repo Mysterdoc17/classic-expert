@@ -169,7 +169,91 @@ var dd = {
             }
         },
         {
-            
+            table: {
+                body: [
+                    [{text: 'jantes / enjoliveurs', colSpan: 6}, ''],
+                    ['', 'AVD', 'AVG', 'ARD', 'ARG', ''],
+                    ['type', '', '', '', '', ''], 
+                    ['état', '', '', '', '', ''],
+                    [{text: 'remarques', colSpan: 6}, ''],
+                    ]
+            }
+        },{
+            table: {
+                body: [
+                    [{text: 'carrosserie',colSpan: 6}, ''],
+                    [{text: '', colSpan: 2}, 'LOCALISATION', 'OBSERVATIONS'],
+                    ['Rayures', 'oui / non', '', ''],
+                    ['enfoncement', 'oui / non', '', ''],
+                    ['présence de mastic', 'oui / non', '', ''],
+                    ['corrosion apparente', 'oui / non', '', ''],
+                    ['corrosion perforante', 'oui / non', '', ''],
+                    ['traces de réparation', 'oui / non', '', ''],
+                    ['alignment des éléments', 'bon / mauvais', '', ''],
+                    ['état des planchers', '', {text: '', colSpan: 2},''],
+                    ['état des bas de caisse', '', {text: '', colSpan: 2}, ''],
+                    ['état des joints', '', {text: '', colSpan: 2},''],
+                    ['état des chromes', '', {text: '', colSpan: 2}, ''],
+                    ['état de la capote', '', {text: '', colSpan: 2}, ''],
+                    ['présence du hard top', '', {text: '', colSpan: 2}, ''],
+                    ['rétroviseurs', '', {text: '', colSpan: 2}, ''],
+                    ['essuie-glace', '', {text: '', colSpan: 2}, ''],
+                    ['pièces manquantes (chromes, PC, enjoliveurs)', {text: '', colSpan: 3}],
+                    ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    [{text: 'peinture', colSpan: 3}, ''],
+                    ['code teinte', 'oui / non', ''],
+                    ['différence de teinte', 'oui / non', ''],
+                    ['cloques apparentes', 'oui / non', ''], 
+                    ['peinture craquelée', 'oui / non', ''],
+                    ['pièces manquantes (chromes, PC, enjoliveurs...)'],
+                    [{text: 'remarques', colSpan: 3}, ''],
+                    ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    ['autres', 'autres'],
+                    ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    [{text: 'mécanique', colSpan: 3}, ''],
+                    [{text: 'niveaux' colSpan: 3}, ''],
+                    ['huile moteur', '', ''],
+                    ['liquide de refroidissement', '', ''],
+                    ['liquide de freins', '', ''],
+                    ['autres (direction assistée, LHM), '', ''],
+                    ['présence de fuite', 'oui / non', ''],
+                    [{text: 'freins', colSpan: 3}],
+                    ['plaquettes', AV / AR, ''],
+                    ['disques', 'AV / AR', ''], 
+                    ['tambours', '', ''],
+                    ['amortisseurs', '', ''],
+                    [{text: 'moteur', colSpan: 3}, ''],
+                    ['fonctionnement', '', ''],
+                    ['démarrage à froid', '', ''],
+                    ['démarrage à chaud', '', ''],
+                    ['présence de voyant au tableau de bord', 'oui / non', ''],
+                    ['fumée à l\'échappement', 'oui / non', ''],
+                ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    [{text: 'sécurité', colSpan: 2}, ''],
+                    [{text: 'coupe circuit', colSpan: 2}, ''],
+                    ['oui / non', 'emplacement'],
+                ]
+            }
         }
         ]
 };
