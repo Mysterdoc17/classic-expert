@@ -254,6 +254,113 @@ var dd = {
                     ['oui / non', 'emplacement'],
                 ]
             }
-        }
+        },
+        {
+            table: {
+                body: [
+                    [{text: 'coupe batterie', colSpan: 2}, ''],
+                    ['oui / non', 'emplacement:'],
+                    [{text: 'extincteur', colSpan: 2}, ''],
+                    ['oui / non', 'emplacement'],
+                    [{text: 'alarme', colSpan: 2}, ''],
+                    ['oui / non', 'emplacement'],
+                    [{text: 'antivol de direction', colSpan: 2}, ''],
+                    [{text: 'oui / non', colSpan: 2}, ''],
+                    [{text: 'antivol supplémentaire', colSpan: 2}, ''], 
+                    [{text: 'oui / non', colSpan: 2}, ''],
+                ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    ['coupe-circuit', 'coupe-batterie'],
+                ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    [{text: '', colSpan: 2}, 'OBSERVATIONS'],
+                    ['Chauffage', 'ok / ko', ''],
+                    ['climatisation', '', ''],
+                    ['volant', '', ''],
+                    ['frein à main', '', ''],
+                    ['usure des commandes', '', ''],
+                    [{text: 'sellerie / revêtement', colSpan:3}, ''],
+                    ['sièges AV', '', ''],
+                    ['banquette AR', '', ''],
+                    ['état des mousses', '', ''],
+                    ['ciel de toit', '', ''],
+                    ['garnitures des portes', '', ''],
+                    ['planche de bord', '', ''],
+                    ['moquettes AV', '', ''],
+                    ['moquettes AR', '', ''],
+                    ['tapis de coffre', '', ''],
+                    [{text: 'remarques', colSpan: 3}, ''],
+                ]
+            }
+        },
+        {
+             table: {
+                 body: [
+                     [{text: 'éclairage', colSpan: 3}, ''],
+                     [{text: '', colSpan: 2}, 'OBSERVATIONS'],
+                     ['optiques AV', 'ok / ko', ''],
+                     ['optiques AR', 'ok / ko', ''],
+                     ['feux de stop', 'ok / ko', ''],
+                     ['feux de recul', 'ok / ko', ''],
+                     ['répétiteurs', 'ok / ko', ''],
+                     ['feux de détresse', 'ok / ko', ''],
+                     [{text: 'remarques', colSpan: 3}, ''],
+                 ]
+             }
+        },
+        {
+            table: {
+                body: [
+                    [{text: 'essai routier', colSpan: 3}, ''],
+                    [{text: '', colSpan: 2}, 'OBSERVATIONS'],
+                    ['conditions d'essai', '', ''],
+                    ['itinéraire emprunté', '', ''],
+                    ['vitesse atteinte', '', ''],
+                    ['jeu dans le levier de vitesses', 'ok / ko', ''],
+                    ['passage aisé des vitesses', 'ok / ko', ''],
+                    ['embrayage', '', ''],
+                    [{text: 'BVA (si équipé)', colSpan: 3}, ''],
+                    ['A - coups', 'oui / non', ''],
+                    ['patinage BV', '', ''],
+                    ['kick down', '', ''],
+                    ['overdrive', 'ok / ko', ''],
+                    [{text: 'cpmortement de véhicule', colSpan: 3}, ''],
+                    ['phases d'accélération', 'ok / ko', ''],
+                    ['phases de freinage', 'ok / ko', ''],
+                    ['montée régime moteur', 'ok / ko', ''],
+                    ['stabilité du ralenti à chaud', 'ok / ko', ''],
+                    ['vibration du volant', 'oui / non', ''],
+                    ['tenue de cap', 'ok / ko', ''],
+                    ['bruit ou résonnance', 'oui / non', ''],
+                    ['autres', {text: '', colSpan: 2}, ''],
+                ]
+            }
+        },
+        {
+            table: {
+                body: [
+                    [{text: 'planche photo', colSpan: 2}, ''],
+                    ['3/4 avant gauche', '3/4 avant droit'],
+                    ['3/4 arrière gauche', '3/4 arrière droit'],
+                    ['face avant', face 'arrière'],
+                    ['latéral gauche', 'latéral droit'],
+                    ['tableau de bord', 'capote'],
+                    ['sièges avant', 'sièges arrière'],
+                    ['jante', 'pneu'],
+                    ['autres', 'autres'],
+                ]
+            }
+        },
+        "supprimer la mention inutile :",
+        "- Votre véhicule est conforme au type mine receptionné lors de sa commercialisation",
+        "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informerqu'il n'est plus conforme au type mine receptionné lors de sa commercialisation",
         ]
 };
