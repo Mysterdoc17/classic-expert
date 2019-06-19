@@ -73,7 +73,7 @@ var dd = {
         {
             table: {
                 body: [
-                    [{text: 'client', colSpan: 2}, '', ''],
+                    [{text: 'client', colSpan: 2}, ''],
                     ['état civil', ''],
                     ['Nom / Prénom', ''],
                     ['adresse', ''], 
@@ -99,9 +99,9 @@ var dd = {
                     [{text: 'examen', colSpan: 2}, ''],
                     ['lieu', ''],
                     ['date', ''],
-                    ['personnes présentes', '', ''],
+                    ['personnes présentes', ''],
                     ['condition', ''],
-                    ['origine de la mission', '', ''],
+                    ['origine de la mission', ''],
                     ]
             }
         },
