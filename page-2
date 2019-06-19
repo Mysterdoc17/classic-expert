@@ -359,8 +359,24 @@ var dd = {
                 ]
             }
         },
-        "supprimer la mention inutile :",
-        "- Votre véhicule est conforme au type mine receptionné lors de sa commercialisation",
-        "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informerqu'il n'est plus conforme au type mine receptionné lors de sa commercialisation",
+        {
+            text: "supprimer la mention inutile :",
+            "- Votre véhicule est conforme au type mine receptionné lors de sa commercialisation",
+            "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation",
+            "De ce fait nous vous conseillons fortement de vous rensigner auprès de la préfecture de votre département afin de vous mettre en conformité avec la législation en vigueur",
+            margin: [0, 20],
+            "Cet examen a été réalisé par ................ sans démontage."
+            "Compte tenu de l'état descriptif ci-dessus, des caractéristiques du véhicule et des transactions commerciales, nous estimons sa valeur à dire d'expert à : ",
+            "fait et clos à",
+            margin: [0, 20],
+            "Le",
+            margin: [0, 20],
+            "Sous les réserves d'usages.",
+            margin: [0, 40],
+            "expert en automobile",
+            margin: [0, 20],
+            "-VE",
+            "information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
+        },
         ]
 };
