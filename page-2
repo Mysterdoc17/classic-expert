@@ -6,6 +6,10 @@ var dd = {
             
         },
         {
+            text: "",
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     ['référence BCA', ''],
@@ -24,6 +28,10 @@ var dd = {
                     ['adresse', ''], 
                     ]
             }
+        },
+        {
+            text: "",
+            margin: [0, 20],
         },
         {
           table: {
@@ -45,6 +53,10 @@ var dd = {
                     ['origine de la mission', ''],
                     ]
             }
+        },
+        {
+            text: "",
+            margin: [0, 20],
         },
         {
             table: {
@@ -76,6 +88,10 @@ var dd = {
             }
         },
         {
+            text: "", 
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     ['frappe à froid', ''],
@@ -84,6 +100,10 @@ var dd = {
                     ['certificat dimmatriculation', ''],
                     ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -103,6 +123,10 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     [{text: 'documents', colSpan: 2}, ''],
@@ -111,12 +135,20 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     [{text: 'état du véhicule', colSpan: 2}, ''],
                     ['        '],
                     ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -133,11 +165,19 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                    [{text: 'photo générale', colSpan: 2}, ''],
                     ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -148,6 +188,10 @@ var dd = {
                     ['        '],
                     ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -169,6 +213,10 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     [{text: 'jantes / enjoliveurs', colSpan: 6}, ''],
@@ -178,7 +226,12 @@ var dd = {
                     [{text: 'remarques', colSpan: 6}, ''],
                     ]
             }
-        },{
+        },
+        {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     [{text: 'carrosserie',colSpan: 6}, ''],
@@ -203,6 +256,11 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+
+        {
             table: {
                 body: [
                     [{text: 'peinture', colSpan: 3}, ''],
@@ -216,11 +274,19 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     ['autres', 'autres'],
                     ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -247,6 +313,10 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     [{text: 'sécurité', colSpan: 2}, ''],
@@ -254,6 +324,10 @@ var dd = {
                     ['oui / non', 'emplacement'],
                 ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -272,11 +346,18 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     ['coupe-circuit', 'coupe-batterie'],
                 ]
             }
+        },{
+            text: '',
+            margin: [0, 20],
         },
         {
             table: {
@@ -300,6 +381,10 @@ var dd = {
                     [{text: 'remarques', colSpan: 3}, ''],
                 ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
              table: {
@@ -345,6 +430,10 @@ var dd = {
             }
         },
         {
+            text: '',
+            margin: [0, 20],
+        },
+        {
             table: {
                 body: [
                     [{text: 'planche photo', colSpan: 2}, ''],
@@ -358,6 +447,10 @@ var dd = {
                     ['autres', 'autres'],
                 ]
             }
+        },
+        {
+            text: '',
+            margin: [0, 20],
         },
         {
             text: "supprimer la mention inutile :",
