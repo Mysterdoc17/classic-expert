@@ -1,8 +1,7 @@
 var dd = {
-    const pdf = {
         pageSize: 'A4',
         info : {
-            title : number,
+            title : "classic-expert",
         },
         header: function(currentPage, pageCount) {
             return [
@@ -52,12 +51,10 @@ var dd = {
                             ]
                 }
             ]
-          },
     content: [
         {
             text: 'rapport dexpertise et rétroexpertise',
-            style: 'header',
-            
+            style: 'header', 
         },
         {
             text: "",
@@ -151,7 +148,7 @@ var dd = {
                     ['frappe à froid', ''],
                     ['plaque constructeur', ''],
                     ['compteur', ''],
-                    ['certificat dimmatriculation', ''],
+                    ['certificat d\'immatriculation', ''],
                     ]
             }
         },
@@ -209,12 +206,12 @@ var dd = {
                 body: [
                     ['', 'bien', 'moyen', 'mal', 'non acceptable'],
                     ['conformité administrative'],
-                    ['historique'],
-                    ['carrosserie'],
-                    ['peinture'],
-                    ['mécanique'],
-                    ['sellerie'],
-                    ['véhicule complet'],
+                    ['historique', '', '', '', ''],
+                    ['carrosserie', '', '', '', ''],
+                    ['peinture', '', '', '', ''],
+                    ['mécanique', '', '', '', ''],
+                    ['sellerie', '', '', '', ''],
+                    ['véhicule complet', '', '', '', ''],
                     ]
             }
         },
