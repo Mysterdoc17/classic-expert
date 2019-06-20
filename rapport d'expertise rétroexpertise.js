@@ -1,5 +1,4 @@
 var dd = {
-    const pdf = {
         pageSize: 'A4',
         info : {
             title : number,
