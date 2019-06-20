@@ -56,6 +56,7 @@ var dd = {
         {
             text: 'rapport d\'expertise et rétroexpertise',
             style: 'header',
+             alignment: 'center'
         },
         {
             text: "",
@@ -66,21 +67,24 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
-                            text: 'renseignements', colSpan: 2, 
+                            text: 'renseignements', colSpan: 2, style: 'title',
+                             alignment: 'center',
                         },
                         '', 
                     ],
+                    [{
+                        text: 'référence BCA',
+                       colSpan: 2, 
+                    }, 
+                    ''],
                     [
-                        'référence BCA',
-                        ''
-                    ],
-                    [
-                        'agence BCA',
-                        ''
-                    ],
+                        {
+                        'agence BCA', colSpan: 2},''
+                        ],
                     [
                         'expert',
                         ''
@@ -105,7 +109,8 @@ var dd = {
                     [
                         {
                             text: 'client',
-                            colSpan: 2
+                            colSpan: 2, style: 'title',
+                             alignment: 'center'
                         },
                         ''
                     ],
@@ -137,7 +142,8 @@ var dd = {
                     [
                         {
                             text: 'propriétaire',
-                            colSpan: 2
+                            colSpan: 2, style: 'title',
+                             alignment: 'center'
                         },
                         ''
                     ],
@@ -165,7 +171,8 @@ var dd = {
                     [
                         {
                             text: 'examen',
-                            colSpan: 2, 
+                            colSpan: 2, style: 'title',
+                             alignment: 'center' 
                         },
                         ''
                     ],
@@ -205,7 +212,8 @@ var dd = {
                     [
                         {
                             text: 'identification du véhicule',
-                            colSpan: 2,
+                            colSpan: 2, style: 'title',
+                             alignment: 'center'
                         },
                         ''
                     ],
@@ -260,7 +268,8 @@ var dd = {
                     [
                         {
                             text: 'puissance',
-                            colSpan: 2
+                            colSpan: 2, style: 'title',
+                             alignment: 'center'
                         },
                         ''
                     ],
@@ -275,7 +284,8 @@ var dd = {
                     [
                         {
                             text: 'couleur',
-                            colSpan: 2
+                            colSpan: 2, style: 'title',
+                             alignment: 'center',
                         },
                         ''
                     ],
@@ -290,7 +300,8 @@ var dd = {
                     [
                         {
                             text: 'compteur',
-                            colSpan: 2
+                            colSpan: 2, style: 'title',
+                             alignment: 'center'
                         },
                         ''
                     ],
@@ -351,7 +362,7 @@ var dd = {
                     [
                         {
                             text: 'documents et éléments administratifs',
-                            colSpan: 3                        },
+                            colSpan: 3, style: 'title'                        },
                         '',
                         ''
                     ],
@@ -377,32 +388,32 @@ var dd = {
                     ],
                     [
                         'notice d\'utilisation',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
                         'facture d\'entretien',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
                         'dossier de restauration',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
                         'double de clés',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
                         'contrôle technique',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
                         'défaut CT',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                 ]
@@ -421,10 +432,11 @@ var dd = {
                     [
                         {
                             text: 'documents',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
+                    ['', ''],
                 ]
             }
         },
@@ -441,7 +453,7 @@ var dd = {
                     [
                         {
                             text: 'état du véhicule',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -530,10 +542,11 @@ var dd = {
                     [
                         {
                             text: 'photo générale',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
+                    ['', ''],
                 ]
             }
         },
@@ -550,7 +563,7 @@ var dd = {
                     [
                         {
                             text: 'historique du modèle',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -561,10 +574,11 @@ var dd = {
                     [
                         {
                             text: 'historique entretien / réparation / restauration',
-                            colSpan: 2
+                            colSpan: 2, 
                         },
                         ''
                     ],
+                    ['', ''],
                 ]
             }
         },
@@ -581,7 +595,7 @@ var dd = {
                     [
                         {
                             text: 'pneumatiques',
-                            colSpan: 5
+                            colSpan: 5, style: 'title'
                         },
                         'roue de secours',
                         '',
@@ -668,14 +682,14 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 5
+                            colSpan: 5, style: 'title'
                         },
                         '',
                         '',
                         '',
                         '',
-
                     ],
+                    ['', '', '', '', ''],
                 ]
             }
         },
@@ -692,7 +706,7 @@ var dd = {
                     [
                         {
                             text: 'jantes / enjoliveurs',
-                            colSpan: 6
+                            colSpan: 6, style: 'title' 
                         },
                         '',
                         '',
@@ -727,7 +741,7 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 6
+                            colSpan: 6, style: 'title'
                         },
                         '',
                         '',
@@ -735,6 +749,8 @@ var dd = {
                         '',
                         ''
                     ],
+                    ['', '', '', '', '', ''],
+
                 ]
             }
         },
@@ -751,7 +767,7 @@ var dd = {
                     [
                         {
                             text: 'carrosserie',
-                            colSpan: 4
+                            colSpan: 4, style: 'title'
                         },
                         '',
                         '',
@@ -904,8 +920,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'peinture',
-                            colSpan: 3
+                            text: 'peinture', colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -938,7 +953,7 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -976,7 +991,7 @@ var dd = {
                     [
                         {
                             text: 'mécanique',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -984,7 +999,7 @@ var dd = {
                     [
                         {
                             text: 'niveaux',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -1017,7 +1032,7 @@ var dd = {
                     [
                         {
                             text: 'freins',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -1045,7 +1060,7 @@ var dd = {
                     [
                         {
                             text: 'moteur',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -1091,14 +1106,14 @@ var dd = {
                     [
                         {
                             text: 'sécurité',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
                     [
                         {
                             text: 'coupe - circuit',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -1122,7 +1137,7 @@ var dd = {
                     [
                         {
                             text: 'coupe - batterie',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -1133,7 +1148,7 @@ var dd = {
                     [
                         {
                             text: 'extincteur',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -1144,7 +1159,7 @@ var dd = {
                     [
                         {
                             text: 'alarme',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -1155,7 +1170,7 @@ var dd = {
                     [
                         {
                             text: 'antivol de direction',
-                            colSpan: 2
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
@@ -1246,7 +1261,7 @@ var dd = {
                     [
                         {
                             text: 'sellerie / revêtement',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -1299,10 +1314,13 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
+                    ],
+                    [
+                        '', '', ''
                     ],
                 ]
             }
@@ -1320,7 +1338,7 @@ var dd = {
                     [
                         {
                             text: 'éclairage',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -1344,12 +1362,12 @@ var dd = {
                         ''
                     ],
                     [
-                        'feuxdestop',
+                        'feux de stop',
                         'ok/ko',
                         ''
                     ],
                     [
-                        'feuxderecul',
+                        'feux de recul',
                         'ok/ko',
                         ''
                     ],
@@ -1359,28 +1377,36 @@ var dd = {
                         ''
                     ],
                     [
-                        'feuxdedétresse',
+                        'feux de détresse',
                         'ok/ko',
                         ''
                     ],
                     [
                         {
                             text: 'remarques',
-                            colSpan: 3
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
                     ],
+                    ['', '', ''],
                 ]
             }
+        },
+        {
+            text: '',
+            margin: [
+                0,
+                20
+            ],
         },
         {
             table: {
                 body: [
                     [
                         {
-                            text: 'essairoutier',
-                            colSpan: 3
+                            text: 'essai routier',
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
@@ -1394,104 +1420,105 @@ var dd = {
                         'OBSERVATIONS'
                     ],
                     [
-                        'conditionsd\'essai',
+                        'conditions d\'essai',
                         '',
                         ''
                     ],
                     [
-                        'itinéraireemprunté',
+                        'itinéraire emprunté',
                         '',
                         ''
                     ],
                     [
-                        'vitesseatteinte',
+                        'vitesse atteinte',
                         '',
                         ''
                     ],
                     [
-                        'jeudanslelevierdevitesses',
-                        'ok/ko',
+                        'jeu dans le levier de vitesses',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'passageaisédesvitesses',
-                        'ok/ko',
+                        'passage aisé des vitesses',
+                        'ok / ko',
                         ''
                     ],
                     [
                         'embrayage',
-                        '',
+                        'ok / ko',
                         ''
                     ],
                     [
                         {
-                            text: 'BVA(siéquipé)',
-                            colSpan: 3
+                            text: 'BVA (si équipé)',
+                            colSpan: 3, style: 'title'
                         },
                         '',
                         ''
                     ],
                     [
-                        'A-coups',
-                        'oui/non',
+                        'A - coups',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'patinageBV',
-                        '',
+                        'patinage BV',
+                        'oui / non',
                         ''
                     ],
                     [
                         'kickdown',
-                        '',
+                        'oui / non',
                         ''
                     ],
                     [
                         'overdrive',
-                        'ok/ko',
+                        'ok / ko',
                         ''
                     ],
                     [
                         {
-                            text: 'comportementdevéhicule',
-                            colSpan: 3
+                            text: 'comportement de véhicule',
+                            colSpan: 3, style: 'title',
+                             alignment: 'center'
                         },
                         '',
                         ''
                     ],
                     [
-                        'phasesd\'accélération',
-                        'ok/ko',
+                        'phases d\'accélération',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'phasesdefreinage',
-                        'ok/ko',
+                        'phases de freinage',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'montéerégimemoteur',
-                        'ok/ko',
+                        'montée régime moteur',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'stabilitéduralentiàchaud',
-                        'ok/ko',
+                        'stabilité du ralenti à chaud',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'vibrationduvolant',
-                        'oui/non',
+                        'vibration du volant',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'tenuedecap',
-                        'ok/ko',
+                        'tenue de cap',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'bruitourésonnance',
-                        'oui/non',
+                        'bruit ou résonnance',
+                        'oui / non',
                         ''
                     ],
                     [
@@ -1517,34 +1544,34 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'planchephoto',
-                            colSpan: 2
+                            text: 'planche photo',
+                            colSpan: 2, style: 'title'
                         },
                         ''
                     ],
                     [
-                        '3/4avantgauche',
-                        '3/4avantdroit'
+                        '3/4 avant gauche',
+                        '3/4 avant droit'
                     ],
                     [
-                        '3/4arrièregauche',
-                        '3/4arrièredroit'
+                        '3/4 arrière gauche',
+                        '3/4 arrière droit'
                     ],
                     [
-                        'faceavant',
-                        'facearrière'
+                        'face avant',
+                        'face arrière'
                     ],
                     [
-                        'latéralgauche',
-                        'latéraldroit'
+                        'latéral gauche',
+                        'latéral droit'
                     ],
                     [
-                        'tableaudebord',
+                        'tableau de bord',
                         'capote'
                     ],
                     [
-                        'siègesavant',
-                        'siègesarrière'
+                        'sièges avant',
+                        'sièges arrière'
                     ],
                     [
                         'jante',
@@ -1603,7 +1630,20 @@ var dd = {
         },
 
 
-    ]
+    ],
+    styles: {
+		header: {
+			fontSize: 18,
+			bold: true
+		},
+		bigger: {
+			fontSize: 15,
+			italics: true
+		},
+        title: {
+            color: 'white', fillColor: 'black'
+        },
+	}
 };
 
 export default dd;
