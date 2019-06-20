@@ -82,8 +82,7 @@ var dd = {
                     }, 
                     ''],
                     [
-                        {
-                        'agence BCA', colSpan: 2},''
+                        {text: 'agence BCA', colSpan: 2},''
                         ],
                     [
                         'expert',
@@ -106,6 +105,7 @@ var dd = {
         {
             table: {
                 body: [
+                    
                     [
                         {
                             text: 'client',
