@@ -54,7 +54,7 @@ var dd = {
           },
     content: [
         {
-            text: 'rapportdexpertiseetrétroexpertise',
+            text: 'rapport d\'expertise et rétroexpertise',
             style: 'header',
         },
         {
@@ -68,11 +68,17 @@ var dd = {
             table: {
                 body: [
                     [
-                        'référenceBCA',
+                        {
+                            text: 'renseignements', colSpan: 2, 
+                        },
+                        '', 
+                    ],
+                    [
+                        'référence BCA',
                         ''
                     ],
                     [
-                        'agenceBCA',
+                        'agence BCA',
                         ''
                     ],
                     [
@@ -80,7 +86,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'datedurapport',
+                        'date du rapport',
                         ''
                     ],
                 ]
@@ -104,11 +110,11 @@ var dd = {
                         ''
                     ],
                     [
-                        'étatcivil',
+                        'état civil',
                         ''
                     ],
                     [
-                        'Nom/Prénom',
+                        'Nom / Prénom',
                         ''
                     ],
                     [
@@ -159,7 +165,7 @@ var dd = {
                     [
                         {
                             text: 'examen',
-                            colSpan: 2
+                            colSpan: 2, 
                         },
                         ''
                     ],
@@ -172,7 +178,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'personnesprésentes',
+                        'personnes présentes',
                         ''
                     ],
                     [
@@ -180,7 +186,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'originedelamission',
+                        'origine de la mission',
                         ''
                     ],
                 ]
@@ -190,7 +196,7 @@ var dd = {
             text: "",
             margin: [
                 0,
-                20
+                10
             ],
         },
         {
@@ -198,8 +204,8 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'identificationduvéhicule',
-                            colSpan: 2
+                            text: 'identification du véhicule',
+                            colSpan: 2,
                         },
                         ''
                     ],
@@ -220,27 +226,27 @@ var dd = {
                         ''
                     ],
                     [
-                        'datedepremièremiseencirculation',
+                        'date de première mise en circulation',
                         'JJ/MM/AAAA'
                     ],
                     [
-                        'datedecertificatdimmatriculation',
+                        'date de certificat d\'immatriculation',
                         'JJ/MM/AAAA'
                     ],
                     [
                         'type',
-                        'normale/collection'
+                        'normale / collection'
                     ],
                     [
-                        'typemines',
+                        'type mines',
                         ''
                     ],
                     [
-                        'numérodesérie',
+                        'numéro de série',
                         ''
                     ],
                     [
-                        'numérodumoteur',
+                        'numéro du moteur',
                         ''
                     ],
                     [
@@ -258,7 +264,7 @@ var dd = {
                         },
                         ''
                     ],
-                    [
+                    [ 
                         'réelle/fiscale',
                         ''
                     ],
@@ -314,11 +320,11 @@ var dd = {
             table: {
                 body: [
                     [
-                        'frappeàfroid',
+                        'frappe à froid',
                         ''
                     ],
                     [
-                        'plaqueconstructeur',
+                        'plaque constructeur',
                         ''
                     ],
                     [
@@ -326,7 +332,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'certificatd\'immatriculation',
+                        'certificat d\'immatriculation',
                         ''
                     ],
                 ]
@@ -344,58 +350,58 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'documentsetélémentsadministratifs',
+                            text: 'documents et éléments administratifs',
                             colSpan: 3                        },
                         '',
                         ''
                     ],
                     [
-                        'certificatdimmatriculation',
+                        'certificat d\'immatriculation',
                         'oui/non',
                         ''
                     ],
                     [
-                        'certificatdesituation(-15j)',
+                        'certificat de situation (-15j)',
                         'oui/non',
                         ''
                     ],
                     [
-                        'facturedachat',
+                        'facture d\'achat',
+                        'oui / non',
+                        ''
+                    ],
+                    [
+                        'carnet d\'entretien',
+                        'oui / non',
+                        ''
+                    ],
+                    [
+                        'notice d\'utilisation',
                         'oui/non',
                         ''
                     ],
                     [
-                        'carnetdentretien',
+                        'facture d\'entretien',
                         'oui/non',
                         ''
                     ],
                     [
-                        'noticedutilisation',
+                        'dossier de restauration',
                         'oui/non',
                         ''
                     ],
                     [
-                        'facturedentretien',
+                        'double de clés',
                         'oui/non',
                         ''
                     ],
                     [
-                        'dossierderestauration',
+                        'contrôle technique',
                         'oui/non',
                         ''
                     ],
                     [
-                        'doubledeclés',
-                        'oui/non',
-                        ''
-                    ],
-                    [
-                        'contrôletechnique',
-                        'oui/non',
-                        ''
-                    ],
-                    [
-                        'défautCT',
+                        'défaut CT',
                         'oui/non',
                         ''
                     ],
@@ -434,7 +440,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'étatduvéhicule',
+                            text: 'état du véhicule',
                             colSpan: 2
                         },
                         ''
@@ -460,7 +466,7 @@ var dd = {
                         '','bien','moyen','mal','nonacceptable',
                     ],
                     [
-                        'conformitéadministrative',
+                        'conformité administrative',
                         '',
                         '',
                         '',
@@ -502,7 +508,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'véhiculecomplet',
+                        'véhicule complet',
                         '',
                         '',
                         '',
@@ -523,7 +529,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'photogénérale',
+                            text: 'photo générale',
                             colSpan: 2
                         },
                         ''
@@ -543,18 +549,18 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'historiquedumodèle',
+                            text: 'historique du modèle',
                             colSpan: 2
                         },
                         ''
                     ],
                     [
-                        'pasdecopier/collerWikipédia',
+                        'pas de copier / coller Wikipédia',
                         ''
                     ],
                     [
                         {
-                            text: 'historiqueentretien/réparation/restauration',
+                            text: 'historique entretien / réparation / restauration',
                             colSpan: 2
                         },
                         ''
@@ -577,7 +583,7 @@ var dd = {
                             text: 'pneumatiques',
                             colSpan: 5
                         },
-                        'rouedesecours',
+                        'roue de secours',
                         '',
                         '',
                         ''
@@ -587,7 +593,7 @@ var dd = {
                         'AVG',
                         'ARD',
                         'ARG',
-                        'Absent/équipé'
+                        'Absent / équipé'
                     ],
                     [
                         'marque',
@@ -625,7 +631,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'datedefabrication',
+                        'date de fabrication',
                         '',
                         '',
                         '',
@@ -646,7 +652,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'tauxdusure',
+                        'taux d\'usure',
                         '',
                         '',
                         '',
@@ -685,7 +691,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'jantes/enjoliveurs',
+                            text: 'jantes / enjoliveurs',
                             colSpan: 6
                         },
                         '',
@@ -762,57 +768,48 @@ var dd = {
                     ],
                     [
                         'Rayures',
-                        'oui/non',
+                        'oui / non',
                         '',
                         ''
                     ],
                     [
                         'enfoncement',
-                        'oui/non',
+                        'oui / non',
                         '',
                         ''
                     ],
                     [
-                        'présencedemastic',
-                        'oui/non',
+                        'présence de mastic',
+                        'oui / non',
                         '',
                         ''
                     ],
                     [
-                        'corrosionapparente',
-                        'oui/non',
+                        'corrosion apparente',
+                        'oui / non',
                         '',
                         ''
                     ],
                     [
-                        'corrosionperforante',
-                        'oui/non',
+                        'corrosion perforante',
+                        'oui / non',
                         '',
                         ''
                     ],
                     [
-                        'tracesderéparation',
-                        'oui/non',
+                        'traces de réparation',
+                        'oui / non',
                         '',
                         ''
                     ],
                     [
-                        'alignmentdeséléments',
-                        'bon/mauvais',
+                        'alignment des éléments',
+                        'bon / mauvais',
                         '',
                         ''
                     ],
                     [
-                        'étatdesplanchers',
-                        '',
-                        {
-                            text: '',
-                            colSpan: 2
-                        },
-                        ''
-                    ],
-                    [
-                        'étatdesbasdecaisse',
+                        'état des planchers',
                         '',
                         {
                             text: '',
@@ -821,7 +818,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'étatdesjoints',
+                        'état des bas de caisse',
                         '',
                         {
                             text: '',
@@ -830,7 +827,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'étatdeschromes',
+                        'état des joints',
                         '',
                         {
                             text: '',
@@ -839,7 +836,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'étatdelacapote',
+                        'état des chromes',
                         '',
                         {
                             text: '',
@@ -848,7 +845,16 @@ var dd = {
                         ''
                     ],
                     [
-                        'présenceduhardtop',
+                        'état de la capote',
+                        '',
+                        {
+                            text: '',
+                            colSpan: 2
+                        },
+                        ''
+                    ],
+                    [
+                        'présence du hard top',
                         '',
                         {
                             text: '',
@@ -866,7 +872,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'essuie-glace',
+                        'essuie - glace',
                         '',
                         {
                             text: '',
@@ -875,7 +881,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'piècesmanquantes(chromes PC, enjoliveurs)',
+                        'pièces manquantes (chromes PC, enjoliveurs)',
                         {
                             text: '',
                             colSpan: 3
@@ -905,27 +911,27 @@ var dd = {
                         ''
                     ],
                     [
-                        'codeteinte',
-                        'oui/non',
+                        'code teinte',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'différencedeteinte',
-                        'oui/non',
+                        'différence de teinte',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'cloquesapparentes',
-                        'oui/non',
+                        'cloques apparentes',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'peinturecraquelée',
-                        'oui/non',
+                        'peinture craquelée',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'piècesmanquantes(chromes, PC, enjoliveurs...)',
+                        'pièces manquantes (chromes, PC, enjoliveurs...)',
                         '',
                         ''
                     ],
@@ -966,7 +972,7 @@ var dd = {
         },
         {
             table: {
-                body: [
+                body: [ 
                     [
                         {
                             text: 'mécanique',
@@ -984,28 +990,28 @@ var dd = {
                         ''
                     ],
                     [
-                        'huilemoteur',
+                        'huile moteur',
                         '',
                         ''
                     ],
                     [
-                        'liquidederefroidissement',
+                        'liquide de refroidissement',
                         '',
                         ''
                     ],
                     [
-                        'liquidedefreins',
+                        'liquide de freins',
                         '',
                         ''
                     ],
                     [
-                        'autres(directionassistée, LHM)',
+                        'autres (direction assistée, LHM)',
                         '',
                         ''
                     ],
                     [
-                        'présencedefuites',
-                        'oui/non',
+                        'présence de fuites',
+                        'oui / non',
                         ''
                     ],
                     [
@@ -1018,12 +1024,12 @@ var dd = {
                     ],
                     [
                         'plaquettes',
-                        'AV/AR',
+                        'AV / AR',
                         ''
                     ],
                     [
                         'disques',
-                        'AV/AR',
+                        'AV / AR',
                         ''
                     ],
                     [
@@ -1050,23 +1056,23 @@ var dd = {
                         ''
                     ],
                     [
-                        'démarrageàfroid',
+                        'démarrage à froid',
                         '',
                         ''
                     ],
                     [
-                        'démarrageàchaud',
+                        'démarrage à chaud',
                         '',
                         ''
                     ],
                     [
-                        'présencedevoyantautableaudebord',
-                        'oui/non',
+                        'présence de voyant au tableau de bord',
+                        'oui / non',
                         ''
                     ],
                     [
-                        'fuméeàl\'échappement',
-                        'oui/non',
+                        'fumée à l\'échappement',
+                        'oui / non',
                         ''
                     ],
                 ]
@@ -1091,13 +1097,13 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'coupecircuit',
+                            text: 'coupe - circuit',
                             colSpan: 2
                         },
                         ''
                     ],
                     [
-                        'oui/non',
+                        'oui / non',
                         'emplacement'
                     ],
                 ]
@@ -1115,13 +1121,13 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'coupebatterie',
+                            text: 'coupe - batterie',
                             colSpan: 2
                         },
                         ''
                     ],
                     [
-                        'oui/non',
+                        'oui / non',
                         'emplacement: '
                     ],
                     [
@@ -1132,7 +1138,7 @@ var dd = {
                         ''
                     ],
                     [
-                        'oui/non',
+                        'oui / non',
                         'emplacement'
                     ],
                     [
@@ -1143,33 +1149,33 @@ var dd = {
                         ''
                     ],
                     [
-                        'oui/non',
+                        'oui / non',
                         'emplacement'
                     ],
                     [
                         {
-                            text: 'antivoldedirection',
+                            text: 'antivol de direction',
                             colSpan: 2
                         },
                         ''
                     ],
                     [
                         {
-                            text: 'oui/non',
+                            text: 'oui / non',
                             colSpan: 2
                         },
                         ''
                     ],
                     [
                         {
-                            text: 'antivolsupplémentaire',
+                            text: 'antivol supplémentaire',
                             colSpan: 2
                         },
                         ''
                     ],
                     [
                         {
-                            text: 'oui/non',
+                            text: 'oui / non',
                             colSpan: 2
                         },
                         ''
@@ -1188,8 +1194,8 @@ var dd = {
             table: {
                 body: [
                     [
-                        'coupe-circuit',
-                        'coupe-batterie'
+                        'coupe - circuit',
+                        'coupe - batterie'
                     ],
                 ]
             }
@@ -1214,7 +1220,7 @@ var dd = {
                     ],
                     [
                         'Chauffage',
-                        'ok/ko',
+                        'ok / ko',
                         ''
                     ],
                     [
@@ -1228,65 +1234,65 @@ var dd = {
                         ''
                     ],
                     [
-                        'freinàmain',
+                        'frein à main',
                         '',
                         ''
                     ],
                     [
-                        'usuredescommandes',
+                        'usure des commandes',
                         '',
                         ''
                     ],
                     [
                         {
-                            text: 'sellerie/revêtement',
+                            text: 'sellerie / revêtement',
                             colSpan: 3
                         },
                         '',
                         ''
                     ],
                     [
-                        'siègesAV',
+                        'sièges AV',
                         '',
                         ''
                     ],
                     [
-                        'banquetteAR',
+                        'banquette AR',
                         '',
                         ''
                     ],
                     [
-                        'étatdesmousses',
+                        'état des mousses',
                         '',
                         ''
                     ],
                     [
-                        'cieldetoit',
+                        'ciel de toit',
                         '',
                         ''
                     ],
                     [
-                        'garnituresdesportes',
+                        'garnitures des portes',
                         '',
                         ''
                     ],
                     [
-                        'planchedebord',
+                        'planche de bord',
                         '',
                         ''
                     ],
                     [
-                        'moquettesAV',
+                        'moquettes AV',
                         '',
                         ''
                     ],
                     [
-                        'moquettesAR',
+                        'moquettes AR',
                         '',
                         ''
                     ],
                     [
-                        'tapisdecoffre',
+                        'tapis de coffre',
                         '',
                         ''
                     ],
@@ -1328,13 +1334,13 @@ var dd = {
                         'OBSERVATIONS'
                     ],
                     [
-                        'optiquesAV',
-                        'ok/ko',
+                        'optiques AV',
+                        'ok / ko',
                         ''
                     ],
                     [
-                        'optiquesAR',
-                        'ok/ko',
+                        'optiques AR',
+                        'ok / ko',
                         ''
                     ],
                     [
