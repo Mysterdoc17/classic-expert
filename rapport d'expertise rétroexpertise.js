@@ -1,4 +1,58 @@
 var dd = {
+    const pdf = {
+        pageSize: 'A4',
+        info : {
+            title : number,
+        },
+        header: function(currentPage, pageCount) {
+            return [
+                {
+                    stack: 
+                            [
+                                {
+                                    text: header, 
+                                    style: 'header' 
+                                },
+                                { 
+                                    text: 'Page '+currentPage+'/'+pageCount, 
+                                    style: 'headerRight' 
+                                }
+                            ] 
+                },
+                {  
+                    canvas: [
+                        { 
+                            type: 'line', x1: 35, y1: 5, x2: 595-2*20, y2: 5, lineWidth: 1 
+                        }
+                    ] 
+                }
+            ]
+          },
+          footer: function(currentPage, pageCount) {
+            return [
+                {  
+                    canvas: [
+                        { 
+                            type: 'line', x1: 35, y1: -30, x2: 595-2*20, y2: -30, lineWidth: 1 
+                        }
+                    ] 
+                },
+                { 
+                    stack: 
+                            [
+                                {
+                                    text: footer, 
+                                    style: 'footer' 
+                                },
+                                { 
+                                    text: 'Page '+currentPage+'/'+pageCount, 
+                                    alignment: 'right',
+                                    style: 'footerRight' 
+                                }
+                            ]
+                }
+            ]
+          },
     content: [
         {
             text: 'rapportdexpertiseetrétroexpertise',
