@@ -1,7 +1,7 @@
 var dd = {
         pageSize: 'A4',
         info : {
-            title : number,
+            title : 'Classic Expert',
         },
         header: function(currentPage, pageCount) {
             return [
@@ -9,7 +9,7 @@ var dd = {
                     stack:
                             [
                                 {
-                                    text: header,
+                                    text: 'Header',
                                     style: 'header'
                                 },
                                 {
@@ -40,7 +40,7 @@ var dd = {
                     stack:
                             [
                                 {
-                                    text: footer,
+                                    text: 'Footer',
                                     style: 'footer'
                                 },
                                 {
