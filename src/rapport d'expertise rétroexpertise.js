@@ -77,19 +77,20 @@ var dd = {
                         '', 
                     ],
                     [{
-                        text: 'référence BCA',
+                        text: 'référence BCA:',
                        colSpan: 2, 
                     }, 
                     ''],
                     [
-                        {text: 'agence BCA', colSpan: 2},''
+                        {text: 'agence BCA:', colSpan: 2},''
                         ],
                     [
-                        'expert',
-                        ''
+                        {text: 'expert:', colSpan: 2},
+                        '', 
+
                     ],
                     [
-                        'date du rapport',
+                        {text: 'date du rapport:', colSpan: 2},
                         ''
                     ],
                 ]
@@ -104,6 +105,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     
                     [
@@ -138,6 +140,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
@@ -145,6 +148,10 @@ var dd = {
                             colSpan: 2, style: 'title',
                              alignment: 'center'
                         },
+                        ''
+                    ],
+                    [
+                        'état civil',
                         ''
                     ],
                     [
@@ -167,6 +174,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
@@ -208,6 +216,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
@@ -329,6 +338,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         'frappe à froid',
@@ -358,22 +368,25 @@ var dd = {
         },
         {
             table: {
+                widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
                         {
                             text: 'documents et éléments administratifs',
-                            colSpan: 3, style: 'title'                        },
+                            colSpan: 3, style: 'title',
+                            alignment: 'center'
+                    },
                         '',
                         ''
                     ],
                     [
                         'certificat d\'immatriculation',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
                         'certificat de situation (-15j)',
-                        'oui/non',
+                        'oui / non',
                         ''
                     ],
                     [
@@ -428,11 +441,13 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'documents',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -449,11 +464,13 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'état du véhicule',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -473,9 +490,10 @@ var dd = {
         },
         {
             table: {
+                widths: ['20%', '20%', '20%', '20%', '20%'],
                 body: [
                     [
-                        '','bien','moyen','mal','nonacceptable',
+                        '','bien','moyen','mal','non acceptable',
                     ],
                     [
                         'conformité administrative',
@@ -538,11 +556,13 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'photo générale',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -559,11 +579,13 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'historique du modèle',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -574,7 +596,8 @@ var dd = {
                     [
                         {
                             text: 'historique entretien / réparation / restauration',
-                            colSpan: 2, 
+                            colSpan: 2,
+                            alignment: 'center' 
                         },
                         ''
                     ],
@@ -591,11 +614,13 @@ var dd = {
         },
         {
             table: {
+                widths: ['20%', '20%', '20%', '20%', '20%'],
                 body: [
                     [
                         {
                             text: 'pneumatiques',
-                            colSpan: 5, style: 'title'
+                            colSpan: 5, style: 'title',
+                            alignment: 'center'                            
                         },
                         'roue de secours',
                         '',
@@ -682,7 +707,8 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 5, style: 'title'
+                            colSpan: 5, style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         '',
@@ -706,7 +732,8 @@ var dd = {
                     [
                         {
                             text: 'jantes / enjoliveurs',
-                            colSpan: 6, style: 'title' 
+                            colSpan: 6, style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         '',
@@ -741,7 +768,8 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 6, style: 'title'
+                            colSpan: 6, style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         '',
@@ -763,11 +791,13 @@ var dd = {
         },
         {
             table: {
+                widths: ['25%', '25%', '25%', '25%'],
                 body: [
                     [
                         {
                             text: 'carrosserie',
-                            colSpan: 4, style: 'title'
+                            colSpan: 4, style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         '',
@@ -917,10 +947,14 @@ var dd = {
         },
         {
             table: {
+                widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
                         {
-                            text: 'peinture', colSpan: 3, style: 'title'
+                            text: 'peinture',
+                            colSpan: 3,
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -953,8 +987,15 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
+                        '',
+                        ''
+                    ],
+                    [
+                        '',
                         '',
                         ''
                     ],
@@ -970,6 +1011,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         'autres',
@@ -987,11 +1029,14 @@ var dd = {
         },
         {
             table: {
+                widths: ['33,3%', '33,3%', '33,3%'],
                 body: [ 
                     [
                         {
                             text: 'mécanique',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1032,7 +1077,9 @@ var dd = {
                     [
                         {
                             text: 'freins',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1060,7 +1107,9 @@ var dd = {
                     [
                         {
                             text: 'moteur',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1102,18 +1151,23 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'sécurité',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
                     [
                         {
                             text: 'coupe - circuit',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -1133,11 +1187,14 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'coupe - batterie',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -1148,7 +1205,9 @@ var dd = {
                     [
                         {
                             text: 'extincteur',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -1159,7 +1218,9 @@ var dd = {
                     [
                         {
                             text: 'alarme',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -1170,7 +1231,9 @@ var dd = {
                     [
                         {
                             text: 'antivol de direction',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -1207,7 +1270,14 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
+                    [
+                        {
+                            text: 'autres éléments', 
+                            colSpan: 2
+                        }
+                    ],
                     [
                         'coupe - circuit',
                         'coupe - batterie'
@@ -1224,6 +1294,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
@@ -1261,7 +1332,9 @@ var dd = {
                     [
                         {
                             text: 'sellerie / revêtement',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1314,7 +1387,9 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1334,6 +1409,7 @@ var dd = {
         },
         {
             table: {
+                widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
                         {
@@ -1384,12 +1460,17 @@ var dd = {
                     [
                         {
                             text: 'remarques',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
                     ],
-                    ['', '', ''],
+                    ['', 
+                    '', 
+                    ''
+                    ],
                 ]
             }
         },
@@ -1402,11 +1483,14 @@ var dd = {
         },
         {
             table: {
+                widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
                         {
                             text: 'essai routier',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1452,7 +1536,9 @@ var dd = {
                     [
                         {
                             text: 'BVA (si équipé)',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1541,11 +1627,14 @@ var dd = {
         },
         {
             table: {
+                widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'planche photo',
-                            colSpan: 2, style: 'title'
+                            colSpan: 2, 
+                            style: 'title',
+                            alignment: 'center'
                         },
                         ''
                     ],
