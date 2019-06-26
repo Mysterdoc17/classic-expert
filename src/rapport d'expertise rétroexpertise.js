@@ -21,34 +21,34 @@ var dd = {
     },
     footer: function (currentPage, pageCount) {
         return [
-            
+
             {
                 text: [
-                    { text : 'Page '}, 
-                    {text : ''+currentPage,  bold: true},
-                    {text: '' + '/'}, 
-                    {text: '' + pageCount, bold: true}
-                    ],
+                    { text: 'Page ' },
+                    { text: '' + currentPage, bold: true },
+                    { text: '' + '/' },
+                    { text: '' + pageCount, bold: true }
+                ],
                 alignment: 'right',
                 style: 'footerRight',
-                margin: [0, 0,45,0]
+                margin: [0, 0, 45, 0]
             },
             {
-            stack: [
-            {
-                canvas: [
+                stack: [
                     {
-                        type: 'rect',
-                        x: 50,
-                        y: 0,
-                        w: 500,
-                        h: 0,
-                        lineColor: '#c1943f'
+                        canvas: [
+                            {
+                                type: 'rect',
+                                x: 50,
+                                y: 0,
+                                w: 500,
+                                h: 0,
+                                lineColor: '#c1943f'
+                            }
+                        ]
                     }
-                    ]
-            }
-            ]
-        },
+                ]
+            },
             {
                 text: [
                     {
@@ -64,9 +64,9 @@ var dd = {
                     }
                 ],
             },
-               {
+            {
                 text: [
-                     {
+                    {
                         text: 'Siège social : 14, rue Sarah Bernhardt - CS 60005 - 92665 - Asnières sur Seine Cedex - www.experveo.fr',
                         alignment: 'center',
                         fontSize: 10
@@ -436,9 +436,9 @@ var dd = {
                         ''
                     ],
                     [
-                       {
-                           text: 'Carnet d\'entretien',
-                           alignment: 'center'
+                        {
+                            text: 'Carnet d\'entretien',
+                            alignment: 'center'
                         },
                         {
                             text: 'oui / non',
@@ -890,6 +890,7 @@ var dd = {
                         {
                             text: 'Remarques : ',
                             colSpan: 5,
+                            margin: [0, 0, 0, 40]
                         },
                         ' ',
                         ' ',
@@ -964,6 +965,7 @@ var dd = {
                         {
                             text: 'Remarques : ',
                             colSpan: 5,
+                            margin: [0, 0, 0, 40]
                         },
                         '',
                         '',
@@ -971,17 +973,6 @@ var dd = {
                         '',
                         'Remarques :'
                     ],
-                    [
-                        {
-                            text: ' ',
-                            colSpan: 6
-                        },
-                        ' ',
-                        ' ',
-                        ' ',
-                        ' ',
-                        ' '
-                    ]
                 ],
             }
         },
@@ -1078,7 +1069,7 @@ var dd = {
                             alignment: 'center',
                             columns: [
                                 {
-                                    	width: 20,
+                                    width: 20,
                                     canvas: [
                                         {
                                             type: 'rect',
@@ -1266,7 +1257,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Cloques apparentes', 
+                            text: 'Cloques apparentes',
                             alignment: 'center'
                         },
                         {
@@ -1296,19 +1287,13 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Remarques',
+                            text: 'Remarques :',
                             colSpan: 3,
-                            style: 'title',
-                            alignment: 'center'
+                            margin: [0, 0, 0, 20]
                         },
-                        '',
-                        ''
-                    ],
-                    [
-                        '',
-                        '',
-                        ''
-                    ],
+                        ' ',
+                        ' ',
+                    ]
                 ]
             }
         },
@@ -1554,7 +1539,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         {
@@ -1587,11 +1572,11 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         {
-                            text: 'emplacement: ',
+                            text: 'Emplacement: ',
                             alignment: 'center'
                         }
                     ],
@@ -1606,7 +1591,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         {
@@ -1616,7 +1601,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'alarme',
+                            text: 'Alarme',
                             colSpan: 2,
                             style: 'title',
                             alignment: 'center'
@@ -1629,7 +1614,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'emplacement',
+                            text: 'Emplacement',
                             alignment: 'center'
                         }
                     ],
@@ -1678,7 +1663,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'autres éléments',
+                            text: 'Autres éléments',
                             colSpan: 2,
                             style: 'title',
                             alignment: 'center'
@@ -1687,11 +1672,11 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'coupe - circuit',
+                            text: 'Coupe - circuit',
                             alignment: 'center'
                         },
                         {
-                            text: 'coupe - batterie',
+                            text: 'Coupe - batterie',
                             alignment: 'center'
                         }
                     ],
@@ -1715,10 +1700,60 @@ var dd = {
                             colSpan: 2
                         },
                         '',
-                        'OBSERVATIONS'
+                        {
+                            text: 'OBSERVATIONS',
+                            alignment: 'center'
+                        }
                     ],
                     [
-                        'Chauffage',
+                        {
+                            text: 'Chauffage',
+                            alignment: 'center'
+                        },
+                        {
+                            text: 'OK / KO',
+                            alignment: 'center'
+                        },
+                        ''
+                    ],
+                    [
+                        {
+                            text: 'Climatisation',
+                            alignment: 'center'
+                        },
+                        {
+                            text: 'OK / KO',
+                            alignment: 'center'
+                        },
+                        ''
+                    ],
+                    [
+                        {
+                            text: 'Volant',
+                            alignment: 'center'
+                        },
+                        {
+                            text: 'OK / KO',
+                            alignment: 'center'
+                        },
+                        ''
+                    ],
+                    [
+                        {
+                            text: 'Frein à main',
+                            alignment: 'center'
+                        },
+                        {
+                            text: 'OK / KO',
+                            alignment: 'center'
+                        },
+                        ''
+                    ],
+                    [
+                        {
+                            text: 'Usure des commandes',
+                            alignment: 'center'
+                        },
                         {
                             text: 'ok / ko',
                             alignment: 'center'
@@ -1726,40 +1761,8 @@ var dd = {
                         ''
                     ],
                     [
-                        'climatisation',
                         {
-                            text: 'ok / ko',
-                            alignment: 'center'
-                        },
-                        ''
-                    ],
-                    [
-                        'volant',
-                        {
-                            text: 'ok / ko',
-                            alignment: 'center'
-                        },
-                        ''
-                    ],
-                    [
-                        'frein à main',
-                        {
-                            text: 'ok / ko',
-                            alignment: 'center'
-                        },
-                        ''
-                    ],
-                    [
-                        'usure des commandes',
-                        {
-                            text: 'ok / ko',
-                            alignment: 'center'
-                        },
-                        ''
-                    ],
-                    [
-                        {
-                            text: 'sellerie / revêtement',
+                            text: 'Sellerie / Revêtement',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -1868,16 +1871,12 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'remarques',
+                            text: 'Remarques :',
                             colSpan: 3,
-                            style: 'title',
-                            alignment: 'center'
+                            margin: [0, 0, 0, 20]
                         },
                         '',
                         ''
-                    ],
-                    [
-                        '', '', ''
                     ],
                 ]
             }
@@ -1896,7 +1895,9 @@ var dd = {
                     [
                         {
                             text: 'éclairage',
-                            colSpan: 3, style: 'title'
+                            colSpan: 3,
+                            style: 'title',
+                            alignment: 'center'
                         },
                         '',
                         ''
@@ -1907,7 +1908,10 @@ var dd = {
                             colSpan: 2
                         },
                         '',
-                        'OBSERVATIONS'
+                        {
+                            text: 'OBSERVATIONS',
+                            alignment: 'center'
+                        }
                     ],
                     [
                         {
@@ -1979,13 +1983,8 @@ var dd = {
                         {
                             text: 'remarques',
                             colSpan: 3,
-                            style: 'title',
-                            alignment: 'center'
+                            margin: [0, 0, 0, 20]
                         },
-                        '',
-                        ''
-                    ],
-                    ['',
                         '',
                         ''
                     ],
@@ -2130,7 +2129,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text:'ok / ko',
+                            text: 'ok / ko',
                             alignment: 'center'
                         },
                         ''
@@ -2178,7 +2177,7 @@ var dd = {
                         ''
                     ],
                     [
-                       {
+                        {
                             text: 'stabilité du ralenti à chaud',
                             alignment: 'center'
                         },
@@ -2294,43 +2293,53 @@ var dd = {
                 20
             ],
         },
+        {
+            table: {
+                body: [
+                    [
+                        [
+                            {
+                                text: "supprimer la mention inutile :"
+                            },
+                            {
+                                text: "- Votre véhicule est conforme au type mine receptionné lors de sa commercialisation"
+                            },
+                            {
+                                text: "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation"
+                            },
+                            {
+                                text: "De ce fait nous vous conseillons fortement de vous rensigner auprès de la préfecture de votre département afin de vous mettre en conformité avec la législation en vigueur"
+                            },
+                            {
+                                text: "Cet examen a été réalisé par ......... sans démontage."
+                            },
+                            {
+                                text: "Compte tenu de l'état descriptif ci-dessus, des caractéristiques du véhicule et des transactions commerciales, nous estimons sa valeur à dire d'expert à : "
+                            },
+                            {
+                                text: "fait et clos à"
+                            },
+                            {
+                                text: "Le"
+                            },
+                            {
+                                text: "Sous les réserves d'usages."
+                            },
+                            {
+                                text: "expert en automobile"
+                            },
+                            {
+                                text: "-VE"
+                            },
+                            {
+                                text: "information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
+                            },
+                        ]
+                    ]
+                ]
+            }
 
-        {
-            text: "supprimer la mention inutile :"
-        },
-        {
-            text: "- Votre véhicule est conforme au type mine receptionné lors de sa commercialisation"
-        },
-        {
-            text: "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation"
-        },
-        {
-            text: "De ce fait nous vous conseillons fortement de vous rensigner auprès de la préfecture de votre département afin de vous mettre en conformité avec la législation en vigueur"
-        },
-        {
-            text: "Cet examen a été réalisé par ................ sans démontage."
-        },
-        {
-            text: "Compte tenu de l'état descriptif ci-dessus, des caractéristiques du véhicule et des transactions commerciales, nous estimons sa valeur à dire d'expert à : "
-        },
-        {
-            text: "fait et clos à"
-        },
-        {
-            text: "Le"
-        },
-        {
-            text: "Sous les réserves d'usages."
-        },
-        {
-            text: "expert en automobile"
-        },
-        {
-            text: "-VE"
-        },
-        {
-            text: "information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
-        },
+        }
     ],
     styles: {
         header: {
@@ -2344,7 +2353,7 @@ var dd = {
         title: {
             color: 'white', fillColor: 'black'
         },
-    }
+    },
 };
 
 export default dd;
