@@ -122,7 +122,7 @@ var dd = {
 
                     [
                         {
-                            text: 'Client',
+                            text: 'CLIENT',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -156,7 +156,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Propriétaire',
+                            text: 'PROPRIÉTAIRE',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -190,7 +190,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Examen',
+                            text: 'ÉXAMEN',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -235,7 +235,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Identification du véhicule',
+                            text: 'IDENTIFICATION DU VÉHICULE',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -291,7 +291,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Puissance',
+                            text: 'PUISSANCE',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -307,7 +307,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Couleur',
+                            text: 'COULEUR',
                             colSpan: 2, style: 'title',
                             alignment: 'center',
                         },
@@ -323,7 +323,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Compteur',
+                            text: 'COMPTEUR',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -389,7 +389,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Documents et éléments administratifs',
+                            text: 'DOCUMENTS ET ÉLÉMENTS ADMINISTRATIFS',
                             colSpan: 3, style: 'title',
                             alignment: 'center'
                         },
@@ -560,7 +560,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Etat du véhicule',
+                            text: 'ÉTAT DU VÉHICULE',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -589,24 +589,26 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 7,
                 widths: ['20%', '20%', '20%', '20%', '20%'],
                 body: [
                     [
                         '',
                         {
-                            text: 'Bien',
+                            image: 'data:image/png;base64,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',
                             alignment: 'center'
                         },
                         {
-                            text: 'Moyen',
+                            image: 'data:image/png;base64,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',
                             alignment: 'center'
                         },
                         {
-                            text: 'Mal',
+                            image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAIAAACQzIFuAAAAA3NCSVQICAjb4U/gAAAFaklEQVRIiZ1WS2yc5RU9937f98+MH0qMh3FSLEDCIVQQqQXEogmPhCYSEqS8mnaXXdVN0yJWlYoAwTbi0R1sYIEEhgIJSJUSSKC1WYQUkBxQoEayQh62M0lkxZ7553vcy+K3x+MhMYGrWYz033PO/zj3fodUFZcvnTmLzyb07Pl48CMTk6gyUbLGbr+Hrr4Kt26ioatXgdPl2HXsCD74L775loyFavAtWepkIpeVQKQp4sYb8Ns7acsdV8quJ07RG+/h2HGkJMHHpYZ2JxEVfywRuwzG4Jab9A8P0LXX/Ai7fDhGb71PC82YN2Ul6SVujQgAA7Zc0d6KPno/37vlsuzy9r95/wH4lo9BQVj1k6wU0cw6ZCXZuYMfvq99hZepD4/z/oOSN32MqrhS6uLpFD5GyZu8/6AeHu9ml+9O4/V98HkUWd1Fq0hEEfhcX98n353uYFfFK6Ocex/jz6NuC/gYOfd4ZbR4dAag45/y5FRsNn42b2fFZoMnp3T86BL7gY+RkqxqjyssVRUAKemBjwBYzNZ5ciqlCICICCjMrICoglZ1DhFUecn/ChStKXgzOYXZupXPJtjYFAMAAhxxgqrCMQEEFV9gujSICMiIwAbQKEoECwoqCiRVY6x8PmH19DRUADBRVH3i7ImjvpkR/6pU+XW5965y35DNFjU6ZjUjAvFM9P/J5z/PF77wTS9ye1Z5qjpsiUQVKnpqxqZD4+J9gSSgzJwRlZjebsy92Zgbtm5nz5rdfYNXWeulGF5kzOdjfHV+dn9j7mQMBvilLYGozEzFu1cNoaWHxij98c8hxgLGRI4YUAF9GVsvzs1+0moElQ3G7R0cvtGVoqol+ia0Hj938v8pOOLflHr2rKndbEsMBSiotJeds5ZT5yZQDSpRlYnWEn/l8z5jqtYdD62956cZVPz2np8+HlpV6/qM+crna4mLt9pJDSCpsllaeG0BAQCdCvm8JiYkoGbsnoEhAAIFsGdgqGZsApgwr2kq5IBK4bGOMkQcjWFqm2q5LEhUSeElrTNuY1YuqAW6MSuvM85LIoWoWnRjiYiZojFstm12WdZ5TVVFdYMr18hM+1Y9+O2Vvow4qqpqVM2It1f66sFP+1aNzAZXFtWuSXSuZLZttvSLdSBeqY2oWrXu72uHRucv3OBKu/sHo8iSyxFFdvcPXkzp29Da1TdQtc5L6mIAMQ+vJ505i789mVJMK/WJKCMGEQAViVC3OMgaVC2IeHEDepUuoCEyxuL5pxm1qoxcZ1zWpa2qXiVIgioxO+Z6isd8o56iYyZmqAZJXdSL39NlMnIdalULgHZsxcuvMSBEnQNJgGPztW++s3DhWGjNpTSTwpBxa4y5xZUe6h3YmFWCJKxEMQBjaMdWLJ58qunZF8zklG822n1M5Ix99+K5py+cOSeJQZbIEQXVqCrQQTZPDqx/sH8wpCidS6LSIyPX8z/+ClqS1ZNn9Jnn+OJ8cYAQUca87+KFv9RP9LK9vdxbNdYAZeJcJQH1FI/mCwsS/1m99nf9A15kEWWt9PfRE4/R8Hp0ntpyeJxf/ZfkjShSeGjXmcmazf60pnZzVikZs7wmiVopfembL83NzkY/un4EgACWmcs9svsR3rp5sfEHmeAgfO5DSMBkaG0q9YBIRCK0PTMKWBAzQ3Wi1RhxJQs455CVZef2zkzQnWf00BjefJ8aeWw2LHFUuWSqWU4yxFHFVnq0p4zf30/bLp9nFgVOnKLR9zDxNVJsZ7FLsi9lMYtNG3XXFWSxZY2xI/hwDMcnyVoogs9X5sgyCBojbhrBvVt+Qo5cUbN1/G9C6+figY85xiIDi7V2x91UHcRtm1CrroL+HkkqTf/1eDYdAAAAAElFTkSuQmCC',
                             alignment: 'center'
                         },
                         {
-                            text: 'Non acceptable',
+                            image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAIAAAAnApehAAAAA3NCSVQICAjb4U/gAAACxElEQVRYhe3YzUsqURQA8NMzR4xQXySvUROsbVlCoUSLCDdCQf0n7V33N0QtJalN7QRX5VIkiGIogqDNZNkHPT/GdO7HeQuHh4w9x2kGWvQOZzHXK+c3h7lznXEIEeGL4sdXwf/tL4lhU99mACqAi9KH+3uh0fBTWnE4mMfzSxSJ0ymYbGXI3Do/O4N8HnI5aLdBUaBaBZ8PRkbA5YL1dVhb49GoCR6NgiJWarXG3h6LxRCgf6pzc687O/LbGzGsi2hsVyWJpVKGanfSjY2n83Nu1S4WMRIxBWs5NcUlyYJdKqHX+xm4k4EAv742bXPE5uXlJzvuzunp51LJnK0oCl9asgoDIABLpWRZNmGT/X1b4E6+7e4OZHNERgjOztpos5mZNiG9y15vE0Q1l7MR7iQvlViPrd+FVM6dhYKJnW6wGMrl2ob7GldVXFy0vW+Mx5HpO9f/lpTL5SAh2iCdhpUVS/0WCrC9DQDQbt/LcjAc7p7U2/6HB5BlbZBIQDJpyW61tIN6faRa1U3qr7dQLsPLizZQFEtwd4Wnp5/1uoHNRBHGxqySvTE+/nt01MB+FEWYnNQGHo9V8m8Fr7fh8+km9dd7IhAAp1MbZLMgSZbsiwvtQBBCoZB+Vrfu64TwrS3777F0WjHcW1wOR2t52VKvHwVdXRV6P9WdC0MkqoozM3Y2HY2yQfZzLQ4ObLRJNvsh8rFNEen8vC0wi8ebzaYJmyCSqyucmLBqh8MtSfrXQ2O/5zV6fGwJFgQ8Pe1Tv5+tItLDQwwEPgOHQpjP9yluYGtncHNDFxZMwTyRILe3hpUHsDt3XSaDg6y+WAwzGUZp71NKb5h8Hzs6gmIRTk6AMbi7g1oNPB6IRGB4GJJJiMdhc3PwYiZsDkAB3gHczeZrpSLKMjw/c7//MRj0i+K72+0GcJh5FTXZt63xXf93+K72H7nnQnQFVRMjAAAAAElFTkSuQmCC',
                             alignment: 'center'
                         },
                     ],
@@ -729,7 +731,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Historique du modèle',
+                            text: 'HISTORIQUE DU MODÈLE',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -741,7 +743,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Historique entretien / réparation / restauration',
+                            text: 'HISTORIQUE',
                             colSpan: 2,
                             alignment: 'center'
                         },
@@ -760,11 +762,13 @@ var dd = {
         },
         {
             table: {
-                widths: ['16,6%', '16,6%', '16,6%', '16,6%', '16,6%', '16,6%'],
+                headerRows: 1,
+                 keepWithHeaderRows: 12,
+                widths: ['13,6%', '13,6%', '13,6%', '13,6%', '13,6%', '34,6%'],
                 body: [
                     [
                         {
-                            text: 'Pneumatiques',
+                            text: 'PNEUMATIQUES',
                             colSpan: 5,
                             style: 'title',
                             alignment: 'center'
@@ -774,7 +778,7 @@ var dd = {
                         '',
                         '',
                         {
-                            text: 'Roue de secours',
+                            text: 'ROUE DE SECOURS',
                             alignment: 'center',
                             style: 'title'
                         },
@@ -942,7 +946,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Jantes / Enjoliveurs',
+                            text: 'JANTES / ENJOLIVEURS',
                             colSpan: 6,
                             style: 'title',
                             alignment: 'center'
@@ -992,6 +996,7 @@ var dd = {
                     [
                         {
                             text: 'Remarques : ',
+                            bold: true,
                             colSpan: 5,
                             margin: [0, 0, 0, 40]
                         },
@@ -999,7 +1004,10 @@ var dd = {
                         '',
                         '',
                         '',
-                        'Remarques :'
+                        {
+                            text: 'Remarques :',
+                            bold: true
+                        }
                     ],
                 ],
             }
@@ -1013,11 +1021,13 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 17,
                 widths: ['25%', '25%', '25%', '25%'],
                 body: [
                     [
                         {
-                            text: 'Carrosserie',
+                            text: 'CARROSSERIE',
                             colSpan: 4, style: 'title',
                             alignment: 'center'
                         },
@@ -1248,7 +1258,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Pièces manquantes (chromes PC, enjoliveurs)',
+                            text: 'Pièces manquantes (Chromes PC, Enjoliveurs)',
                             alignment: 'center'
                         },
                         {
@@ -1276,7 +1286,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Peinture',
+                            text: 'PEINTURE',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -1330,7 +1340,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Pièces manquantes (chromes, PC, enjoliveurs...)',
+                            text: 'Pièces manquantes (Chromes, PC, Enjoliveurs...)',
                             alignment: 'center'
                         },
                         '',
@@ -1339,6 +1349,7 @@ var dd = {
                     [
                         {
                             text: 'Remarques :',
+                            bold: true,
                             colSpan: 3,
                             margin: [0, 0, 0, 20]
                         },
@@ -1393,7 +1404,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Mécanique',
+                            text: 'MÉCANIQUE',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -1403,7 +1414,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Niveaux',
+                            text: 'NIVEAUX',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -1456,7 +1467,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Freins',
+                            text: 'FREINS',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -1510,7 +1521,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Moteur',
+                            text: 'MOTEUR',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -1580,7 +1591,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Sécurité',
+                            text: 'SÉCURITÉ',
                             colSpan: 2,
                             style: 'title',
                             alignment: 'center'
@@ -1925,6 +1936,7 @@ var dd = {
                     [
                         {
                             text: 'Remarques :',
+                            bold: true,
                             colSpan: 3,
                             margin: [0, 0, 0, 20]
                         },
@@ -2035,6 +2047,7 @@ var dd = {
                     [
                         {
                             text: 'Remarques :',
+                            bold: true,
                             colSpan: 3,
                             margin: [0, 0, 0, 20]
                         },
@@ -2057,7 +2070,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Essai routier',
+                            text: 'ESSAI ROUTIER',
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -2189,7 +2202,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Comportement de véhicule',
+                            text: 'COMPORTEMENT DU VÉHICULE',
                             colSpan: 3, style: 'title',
                             alignment: 'center'
                         },
@@ -2300,7 +2313,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Planche photo',
+                            text: 'PLANCHE PHOTO',
                             colSpan: 2,
                             style: 'title',
                             alignment: 'center'
