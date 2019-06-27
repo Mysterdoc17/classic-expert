@@ -3,7 +3,7 @@ var dd = {
     info: {
         title: 'classic expert',
     },
-    pageMargins: [40, 100, 40, 50],
+    pageMargins: [40, 100, 40, 60],
     header: function (currentPage, pageCount) {
         return [
             {
@@ -24,10 +24,10 @@ var dd = {
 
             {
                 text: [
-                    { text: 'Page ' },
-                    { text: '' + currentPage, bold: true },
-                    { text: '' + '/' },
-                    { text: '' + pageCount, bold: true }
+                    { text: 'Page ', fontSize: 10},
+                    { text: '' + currentPage, bold: true, fontSize: 10},
+                    { text: ' sur ', fontSize: 10},
+                    { text: '' + pageCount, bold: true, fontSize: 10}
                 ],
                 alignment: 'right',
                 style: 'footerRight',
@@ -77,24 +77,13 @@ var dd = {
     },
     content: [
         {
-            text: 'rapport d\'expertise et rétroexpertise',
-            style: 'header',
-            alignment: 'center'
-        },
-        {
-            text: "",
-            margin: [
-                0,
-                20
-            ],
-        },
-        {
             table: {
                 widths: ['50%', '50%'],
                 body: [
                     [
                         {
-                            text: 'Renseignements', colSpan: 2, style: 'title',
+                            text: 'RAPPORT D\'EXPERTISE RÉTROPERTISE',
+                            colSpan: 2, style: 'title',
                             alignment: 'center',
                         },
                         '',
@@ -239,6 +228,9 @@ var dd = {
         },
         {
             table: {
+                dontBreakRows: true,
+                 headerRows: 1,
+                 keepWithHeaderRows: 22,
                 widths: ['50%', '50%'],
                 body: [
                     [
@@ -391,6 +383,8 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 10,
                 widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
@@ -408,7 +402,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -419,7 +413,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -430,7 +424,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -441,7 +435,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -452,7 +446,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -463,7 +457,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -474,7 +468,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -485,7 +479,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -496,7 +490,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -507,7 +501,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -534,7 +528,22 @@ var dd = {
                         },
                         ''
                     ],
-                    [' ', ' '],
+                    [
+                        {
+                            text: ' ',
+                            margin: [
+                                0,
+                                20
+                            ]
+                        },
+                        {
+                            text: ' ',
+                            margin: [
+                                0,
+                                20
+                            ]
+                        }
+                    ],
                 ]
             }
         },
@@ -558,7 +567,14 @@ var dd = {
                         ''
                     ],
                     [
-                        ' ',
+                        {
+                            text: '',
+                            colSpan: 2,
+                            margin: [
+                                0,
+                                40
+                            ]
+                        },
                         ' '
                     ],
                 ]
@@ -686,7 +702,17 @@ var dd = {
                         },
                         ''
                     ],
-                    [' ', ' '],
+                    [
+                        {
+                            text: '',
+                            colSpan: 2,
+                            margin: [
+                                0,
+                                40
+                            ]
+                        },
+                        ''
+                    ],
                 ]
             }
         },
@@ -910,6 +936,8 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 4,
                 widths: ['16,6%', '16,6%', '16,6%', '16,6%', '16,6%', '16,6%'],
                 body: [
                     [
@@ -1098,7 +1126,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         '',
@@ -1110,7 +1138,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'bon / mauvais',
+                            text: 'Bon / Mauvais',
                             alignment: 'center'
                         },
                         '',
@@ -1242,6 +1270,8 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 6,
                 widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
@@ -1332,11 +1362,17 @@ var dd = {
                     [
                         {
                             text: 'Autres',
-                            alignment: 'center'
+                            margin: [
+                                0,
+                                40
+                            ]
                         },
                         {
                             text: 'Autres',
-                            alignment: 'center'
+                            margin: [
+                                0,
+                                40
+                            ]
                         }
                     ],
                 ]
@@ -1351,6 +1387,8 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 17,
                 widths: ['33,3%', '33,3%', '33,3%'],
                 body: [
                     [
@@ -1580,63 +1618,56 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 9,
                 widths: ['50%', '50%'],
                 body: [
                     [
                         {
                             text: 'Coupe - batterie',
                             colSpan: 2,
-                            style: 'title',
-                            alignment: 'center'
+                            style: 'title'
                         },
                         ''
                     ],
                     [
                         {
-                            text: 'Oui / Non',
-                            alignment: 'center'
+                            text: 'Oui / Non'
                         },
                         {
-                            text: 'Emplacement: ',
-                            alignment: 'center'
+                            text: 'Emplacement: '
                         }
                     ],
                     [
                         {
                             text: 'Extincteur',
                             colSpan: 2,
-                            style: 'title',
-                            alignment: 'center'
+                            style: 'title'
                         },
                         ''
                     ],
                     [
                         {
-                            text: 'Oui / Non',
-                            alignment: 'center'
+                            text: 'Oui / Non'
                         },
                         {
-                            text: 'Emplacement',
-                            alignment: 'center'
+                            text: 'Emplacement'
                         }
                     ],
                     [
                         {
                             text: 'Alarme',
                             colSpan: 2,
-                            style: 'title',
-                            alignment: 'center'
+                            style: 'title' 
                         },
                         ''
                     ],
                     [
                         {
-                            text: 'Oui / Non',
-                            alignment: 'center'
+                            text: 'Oui / Non'
                         },
                         {
-                            text: 'Emplacement',
-                            alignment: 'center'
+                            text: 'Emplacement'
                         }
                     ],
                     [
@@ -1650,14 +1681,15 @@ var dd = {
                     [
                         {
                             text: 'Oui / Non',
-                            colSpan: 2
+                            colSpan: 2,
                         },
                         ''
                     ],
                     [
                         {
                             text: 'Antivol supplémentaire',
-                            colSpan: 2
+                            colSpan: 2,
+                            style: 'title'
                         },
                         ''
                     ],
@@ -2002,7 +2034,7 @@ var dd = {
                     ],
                     [
                         {
-                            text: 'Remarques',
+                            text: 'Remarques :',
                             colSpan: 3,
                             margin: [0, 0, 0, 20]
                         },
@@ -2129,7 +2161,7 @@ var dd = {
                         },
                         {
                             text: 'Oui / Non',
-                            alignmnt: 'center'
+                            alignment: 'center'
                         },
                         ''
                     ],
@@ -2139,7 +2171,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
@@ -2192,7 +2224,7 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'ok / ko',
+                            text: 'OK / KO',
                             alignment: 'center'
                         },
                         ''
@@ -2236,13 +2268,16 @@ var dd = {
                             alignment: 'center'
                         },
                         {
-                            text: 'oui / non',
+                            text: 'Oui / Non',
                             alignment: 'center'
                         },
                         ''
                     ],
                     [
-                        'Autres',
+                        {
+                            text: 'Autres',
+                            alignment: 'center'
+                        },
                         {
                             text: '',
                             colSpan: 2
@@ -2316,6 +2351,8 @@ var dd = {
         },
         {
             table: {
+                headerRows: 1,
+                 keepWithHeaderRows: 1,
                 body: [
                     [
                         [
@@ -2337,11 +2374,11 @@ var dd = {
                                 text: '',
                                 margin: [
                                     0,
-                                    20
+                                    10
                                 ]
                             },
                             {
-                                text: "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation"
+                                text: "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation."
                             },
                             {
                                 text: "De ce fait nous vous conseillons fortement de vous rensigner auprès de la préfecture de votre département afin de vous mettre en conformité avec la législation en vigueur"
@@ -2350,7 +2387,7 @@ var dd = {
                                 text: '',
                                 margin: [
                                     0,
-                                    20
+                                    10
                                 ]
                             },
                             {
@@ -2373,7 +2410,7 @@ var dd = {
                                 ]
                             },
                             {
-                                text: "fait et clos à"
+                                text: "Fait et clos à"
                             },{
                                 text: '',
                                 margin: [
@@ -2402,7 +2439,7 @@ var dd = {
                                 ]
                             },
                             {
-                                text: "expert en automobile"
+                                text: "Expert en automobile"
                             },
                             {
                                 text: '',
@@ -2422,7 +2459,7 @@ var dd = {
                                 ]
                             },
                             {
-                                text: "information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
+                                text: "Information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
                             },
                         ]
                     ]
