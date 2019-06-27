@@ -919,6 +919,7 @@ var dd = {
                     [
                         {
                             text: 'Remarques : ',
+                            bold: true,
                             colSpan: 5,
                             margin: [0, 0, 0, 40]
                         },
@@ -926,7 +927,10 @@ var dd = {
                         ' ',
                         ' ',
                         ' ',
-                        'Remarques : '
+                        {
+                            text: 'Remarques : ',
+                            bold: true
+                        }
                     ],
                 ]
             }
@@ -1159,10 +1163,7 @@ var dd = {
                             text: 'Etat des planchers',
                             alignment: 'center'
                         },
-                        {
-                            text: 'Bon / Mauvais',
-                            alignment: 'center'
-                        },
+                        '',
                         {
                             text: '',
                             colSpan: 2
@@ -1174,10 +1175,7 @@ var dd = {
                             text: 'Etat des bas de caisse',
                             alignment: 'center'
                         },
-                        {
-                            text: 'Bon / Mauvais',
-                            alignment: 'center'
-                        },
+                        '',
                         {
                             text: '',
                             colSpan: 2
