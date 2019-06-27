@@ -1163,7 +1163,14 @@ var dd = {
                             text: 'Etat des planchers',
                             alignment: 'center'
                         },
+<<<<<<< HEAD
                         '',
+=======
+                        {
+                            text: 'Bon / Mauvais',
+                            alignment: 'center'
+                        },
+>>>>>>> master
                         {
                             text: '',
                             colSpan: 2
@@ -1175,7 +1182,14 @@ var dd = {
                             text: 'Etat des bas de caisse',
                             alignment: 'center'
                         },
+<<<<<<< HEAD
                         '',
+=======
+                        {
+                            text: 'Bon / Mauvais',
+                            alignment: 'center'
+                        },
+>>>>>>> master
                         {
                             text: '',
                             colSpan: 2
@@ -1256,7 +1270,11 @@ var dd = {
                     ],
                     [
                         {
+<<<<<<< HEAD
                             text: 'Pièces manquantes (Chromes PC, Enjoliveurs)',
+=======
+                            text: 'Pièces manquantes (chromes PC, enjoliveurs)',
+>>>>>>> master
                             alignment: 'center'
                         },
                         {
@@ -1673,7 +1691,12 @@ var dd = {
                     ],
                     [
                         {
+<<<<<<< HEAD
                             text: 'Oui / Non'
+=======
+                            text: 'Oui / Non',
+                            alignment: 'center'
+>>>>>>> master
                         },
                         {
                             text: 'Emplacement'
@@ -1690,15 +1713,23 @@ var dd = {
                     [
                         {
                             text: 'Oui / Non',
+<<<<<<< HEAD
                             colSpan: 2,
+=======
+                            colSpan: 2
+>>>>>>> master
                         },
                         ''
                     ],
                     [
                         {
                             text: 'Antivol supplémentaire',
+<<<<<<< HEAD
                             colSpan: 2,
                             style: 'title'
+=======
+                            colSpan: 2
+>>>>>>> master
                         },
                         ''
                     ],
@@ -2044,8 +2075,12 @@ var dd = {
                     ],
                     [
                         {
+<<<<<<< HEAD
                             text: 'Remarques :',
                             bold: true,
+=======
+                            text: 'Remarques',
+>>>>>>> master
                             colSpan: 3,
                             margin: [0, 0, 0, 20]
                         },
@@ -2068,7 +2103,11 @@ var dd = {
                 body: [
                     [
                         {
+<<<<<<< HEAD
                             text: 'ESSAI ROUTIER',
+=======
+                            text: 'Essai routier',
+>>>>>>> master
                             colSpan: 3,
                             style: 'title',
                             alignment: 'center'
@@ -2172,7 +2211,11 @@ var dd = {
                         },
                         {
                             text: 'Oui / Non',
+<<<<<<< HEAD
                             alignment: 'center'
+=======
+                            alignmnt: 'center'
+>>>>>>> master
                         },
                         ''
                     ],
@@ -2200,7 +2243,11 @@ var dd = {
                     ],
                     [
                         {
+<<<<<<< HEAD
                             text: 'COMPORTEMENT DU VÉHICULE',
+=======
+                            text: 'Comportement de véhicule',
+>>>>>>> master
                             colSpan: 3, style: 'title',
                             alignment: 'center'
                         },
@@ -2285,10 +2332,14 @@ var dd = {
                         ''
                     ],
                     [
+<<<<<<< HEAD
                         {
                             text: 'Autres',
                             alignment: 'center'
                         },
+=======
+                        'Autres',
+>>>>>>> master
                         {
                             text: '',
                             colSpan: 2
@@ -2311,7 +2362,11 @@ var dd = {
                 body: [
                     [
                         {
+<<<<<<< HEAD
                             text: 'PLANCHE PHOTO',
+=======
+                            text: 'Planche photo',
+>>>>>>> master
                             colSpan: 2,
                             style: 'title',
                             alignment: 'center'
@@ -2385,11 +2440,19 @@ var dd = {
                                 text: '',
                                 margin: [
                                     0,
+<<<<<<< HEAD
                                     10
                                 ]
                             },
                             {
                                 text: "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation."
+=======
+                                    20
+                                ]
+                            },
+                            {
+                                text: "- Les modifications notables constatées sur votre véhicule  nous obligent à vous informer qu'il n'est plus conforme au type mine receptionné lors de sa commercialisation"
+>>>>>>> master
                             },
                             {
                                 text: "De ce fait nous vous conseillons fortement de vous rensigner auprès de la préfecture de votre département afin de vous mettre en conformité avec la législation en vigueur"
@@ -2398,7 +2461,11 @@ var dd = {
                                 text: '',
                                 margin: [
                                     0,
+<<<<<<< HEAD
                                     10
+=======
+                                    20
+>>>>>>> master
                                 ]
                             },
                             {
@@ -2421,7 +2488,11 @@ var dd = {
                                 ]
                             },
                             {
+<<<<<<< HEAD
                                 text: "Fait et clos à"
+=======
+                                text: "fait et clos à"
+>>>>>>> master
                             },{
                                 text: '',
                                 margin: [
@@ -2450,7 +2521,18 @@ var dd = {
                                 ]
                             },
                             {
+<<<<<<< HEAD
                                 text: "Expert en automobile"
+                            },
+                            {
+                                text: '',
+                                margin: [
+                                    0,
+                                    20
+                                ]
+=======
+                                text: "expert en automobile"
+>>>>>>> master
                             },
                             {
                                 text: '',
@@ -2470,7 +2552,11 @@ var dd = {
                                 ]
                             },
                             {
+<<<<<<< HEAD
                                 text: "Information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
+=======
+                                text: "information : La présente évaluation à caractère indicatif reste subordonnée aux fluctuation du marché caractérisant ce type de véhicule."
+>>>>>>> master
                             },
                         ]
                     ]
