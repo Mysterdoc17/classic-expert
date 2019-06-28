@@ -2504,6 +2504,7 @@ var dd = {
             ]
         },
         {
+            layout: 'noBorders',
             table: {
                 headerRows: 1,
                  keepWithHeaderRows: 1,
