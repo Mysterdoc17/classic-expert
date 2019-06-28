@@ -3,7 +3,7 @@ var dd = {
     info: {
         title: 'classic expert'
     },
-    pageMargins: [40, 100, 40, 60],
+    pageMargins: [40, 100, 40, 70],
     header: function (currentPage, pageCount) {
         return [
             {
@@ -72,6 +72,15 @@ var dd = {
                         fontSize: 10
                     }
                 ],
+            },
+            {
+                text: [
+                    {
+                        text: '© Vedana, 4 rue Alfred Kastler, Les Minimes, 17000 La Rochelle. Tous droits réservés.',
+                        alignment: 'center',
+                        fontSize: 6
+                    }
+                ]
             }
         ]
     },
@@ -89,20 +98,29 @@ var dd = {
                         '',
                     ],
                     [{
-                        text: 'Référence BCA:',
+                        text: 'Référence BCA :',
                         colSpan: 2,
                     },
                         ''],
                     [
-                        { text: 'Agence BCA:', colSpan: 2 }, ''
+                        {
+                            text: 'Agence BCA :',
+                            colSpan: 2
+                        },
+                        ''
                     ],
                     [
-                        { text: 'Expert:', colSpan: 2 },
-                        '',
-
+                        {
+                            text: 'Expert :',
+                            colSpan: 2
+                        },
+                        ''
                     ],
                     [
-                        { text: 'Date du rapport:', colSpan: 2 },
+                        {
+                            text: 'Date du rapport :',
+                            colSpan: 2
+                        },
                         ''
                     ],
                 ]
@@ -353,7 +371,7 @@ var dd = {
         },
         {
             table: {
-                widths: ['50%', '50%'],
+                widths: ['25%', '75%'],
                 body: [
                     [
                         'Frappe à froid',
@@ -698,7 +716,7 @@ var dd = {
                 body: [
                     [
                         {
-                            text: 'Photo générale',
+                            text: 'PHOTO GÉNÉRALE',
                             colSpan: 2, style: 'title',
                             alignment: 'center'
                         },
@@ -1492,21 +1510,39 @@ var dd = {
                     [
                         {
                             text: 'Plaquettes',
-                            alignment: 'center'
+                            alignment: 'center',
+                            rowSpan: 2,
                         },
                         {
-                            text: 'AV / AR',
+                            text: 'AV',
+                            alignment: 'center'
+                        },
+                        ''
+                    ],
+                     [
+                       '',
+                        {
+                            text: 'AR',
+                            alignment: 'center'
+                        },
+                        ''
+                    ],
+                   [
+                        {
+                            text: 'Disques',
+                            alignment: 'center',
+                            rowSpan: 2
+                        },
+                        {
+                            text: 'AV',
                             alignment: 'center'
                         },
                         ''
                     ],
                     [
+                        '',
                         {
-                            text: 'Disques',
-                            alignment: 'center'
-                        },
-                        {
-                            text: 'AV / AR',
+                            text: 'AR',
                             alignment: 'center'
                         },
                         ''
