@@ -73,15 +73,6 @@ var dd = {
                     }
                 ],
             },
-            {
-                text: [
-                    {
-                        text: '© Vedana, 4 rue Alfred Kastler, Les Minimes, 17000 La Rochelle. Tous droits réservés.',
-                        alignment: 'center',
-                        fontSize: 6
-                    }
-                ]
-            }
         ]
     },
     content: [
